@@ -1,0 +1,58 @@
+[
+    {
+        "neighbor-name": "P1S5-4k-Fus-G",
+        "site" : "Fira",
+        "interfaceIndex":
+        [
+            {
+                "portIndex": "GigabitEthernet0/1/0",
+                "mgmt_vlan": 70,
+                "mgmt_vlan_ipv4": "10.11.70.11",
+                "data_vlan": 71,
+                "voice_vlan": 72,
+                "hostname": "Fira-Acc01"
+            },
+            {
+                "portIndex": "GigabitEthernet0/1/1",
+                "mgmt_vlan": 70,
+                "mgmt_vlan_ipv4": "10.11.70.12",
+                "data_vlan": 73,
+                "voice_vlan": 74,
+                "hostname": "Fira-Acc02"
+            },
+            {
+                "portIndex": "GigabitEthernet0/1/2",
+                "mgmt_vlan": 70,
+                "mgmt_vlan_ipv4": "10.11.70.13",
+                "data_vlan": 75,
+                "voice_vlan": 76,
+                "hostname": "Fira-Acc03"
+            },
+            {
+                "portIndex": "GigabitEthernet0/1/3",
+                "mgmt_vlan": 70,
+                "mgmt_vlan_ipv4": "10.11.70.14",
+                "data_vlan": 77,
+                "voice_vlan": 78,
+                "hostname": "Fira-Acc04"
+            }
+        ],
+        
+        "portTemplates":
+        [
+            {
+                "model": "C9300-48P",
+                "template": "Fira-Access-48"
+            },
+            {
+                "model": "C9300-24T-E",
+                "template": "Fira-Access-24"
+            },
+            {
+                "model": "C9300-24U-A",
+                "template": "Fira-Access-24"
+            }
+        ],
+        "default_router": "10.11.70.1"
+    }
+]
